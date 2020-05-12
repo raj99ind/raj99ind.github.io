@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <title>RAJ INDUSTRIES</title>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper indigo darken-3">
+      <div class="container">
+        <a href="" class="brand-logo">RAJ INDUSTRIES</a>
+        <a href="" class="sidenav-trigger" data-target="mobile-menu">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#services">services</a></li>
+          <li><a href="#contact">contact</a></li>
+       </ul>
+       <ul class="sidenav orange lighten-2" id="mobile-menu">
+          <li><a href="#">services</a></li>
+          <li><a href="#">contact</a></li>
+       </ul>
+      </div>
+    </nav>
+  </header>
+
+  
+
+  <!-- services / tabs -->
+  <section class="container section" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Services we provide</h2>
+          <p>Everything related to electronics, electrical contracts, sell of electrical appliances like AC, cooler, tubelights, etc. Just a call away from what you need electrically!</p>
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#note1" class="indigo-text text-darken-4">contracts</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#note2" class="indigo-text text-darken-4">selling</a>
+          </li>
+        </ul>
+        <div class="col s12" id="note1">
+          <p class="flow-text indigo-text text-darken-4">CONTRACTS</p>
+          <p>We accept all contracts like fitting of AC, coolers, large scale electronic fittings, etc</p>
+          <p>Applicable for individal services too at you doorstep!</p>
+        </div>
+        <div class="col s12" id="note2">
+          <p class="flow-text indigo-text text-darken-4">SELLING</p>
+          <p>Dealership related to mass purchase of appliances at a cheaper rate!</p>
+      </div>
+    </div>
+ </section>
+
+  
+
+  <!-- contact form -->
+  <section class="container section" id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">Where to contact us?</h2>
+        
+      </div>
+      <div class="col s12 l6 offset-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#note3" class="indigo-text text-darken-4">Call us</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#note4" class="indigo-text text-darken-4">Email us</a>
+          </li>
+        </ul>
+        <div class="col s12" id="note1">
+          <p class="flow-text indigo-text text-darken-4">CALL US</p>
+          <p>7987662585<p>
+        </div>
+        <div class="col s12" id="note2">
+          <p class="flow-text indigo-text text-darken-4">EMAIL US</p>
+          <p>raj99industries@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
+      $('.tabs').tabs();
+    });
+  </script>
+</body>
+</html>
